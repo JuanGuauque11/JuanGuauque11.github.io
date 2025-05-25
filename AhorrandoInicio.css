@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to bottom, #0D9488, #16A34A);
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.AhorrandoInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* altura total de la pantalla */
+  text-align: center;
+  padding: 20px;
+  transition: opacity 1s ease-out; /* transición para el fade */
+  opacity: 1;
+}
+
+.h1{
+    font-family: 'Inter';
+    src: url("Inter-BoldItalic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face { 
+    font-family: "Inter"; 
+    font-style: italic; 
+    font-weight: 700; 
+    font-display: swap; 
+    src: url("Inter-BoldItalic.woff2") format("woff2");
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.logo{
+    position: fixed;
+    height: 129.21px;
+    width: 129.21px;
+    top: 0;
+    right: 0;
+    margin: 16px;
+}
+
+.autor {
+    position:fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) ;
+    font-size: 24px;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+  .inicio {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 880px;
+  }
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+
+
+

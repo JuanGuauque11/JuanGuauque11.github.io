@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorrando</title>
+    <link rel="stylesheet" href="AhorrandoCarga.css">
+</head>
+<body>
+<div 
+class="loader">
+</div>
+    <main>
+        <section>
+            <img src="logo.png" alt="logo" class="logocarga">
+            <p class="autorcarga">By Juan Guauque</p>
+        </section>
+    </main>
+<script>
+  setTimeout(() => {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('fade-out');
+    setTimeout(() => {
+      window.location.href = "AhorrandoInicio.html";
+    }, 1000)
+  }, 3000);
+</script>
+</body>
+</html>

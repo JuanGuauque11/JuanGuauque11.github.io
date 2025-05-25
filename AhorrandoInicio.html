@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorrando</title>
+    <link rel="stylesheet" href="AhorrandoInicio.css">
+</head>
+<head>
+</head>
+<body>
+    <div class="AhorrandoInicio"
+ <main>
+        <section>
+            <h1 class="inicio">Bienvenido a<br>Ahorrando, aqui
+                <br>empieza una etapa en la<br>
+                que podras gestionar tu<br>
+                ahorro a tu ritmo</h1>
+            <img src="logo.png" class="logo">
+            <p class="autor">By Juan Guauque</p>
+        </section>
+    </main>
+    </div>
+    <script>
+setTimeout(() => {
+  const container = document.querySelector('.AhorrandoInicio');
+  container.classList.add('fade-out');
+  setTimeout(() => {
+    window.location.href = "AhorrandoLogin.html";
+  }, 1000);
+}, 3000);
+</script>
+</body>
+</html>
