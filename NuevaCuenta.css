@@ -1,0 +1,91 @@
+@font-face { 
+    font-family: "Inter"; 
+    font-style: italic; 
+    font-weight: 700; 
+    font-display: swap; 
+    src: url("Inter-BoldItalic.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center; 
+  align-items: center;      
+  background: linear-gradient(to bottom right, #16A34A, #0D9488);
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.card img{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+  border: 15px white solid;
+  right: 200px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  margin-top: -170px;
+  left: 967px;
+  top: 250px;
+}
+
+.formulario {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+  font-family: "Inter", sans-serif;
+  left: 900px;
+  top: 180px;
+}
+
+.formulario input {
+  position: relative;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  margin: 10px;
+}
+
+/* Placeholder blanco */
+.formulario input::placeholder {
+  color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
+/* Botón */
+.formulario button {
+  padding: 12px;
+  background-color: white;
+  color: #007d52;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.formulario button:hover {
+  background-color: #e0e0e0;
+}
